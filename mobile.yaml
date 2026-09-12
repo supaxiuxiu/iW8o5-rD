@@ -88,7 +88,6 @@ rules:
   - DOMAIN-SUFFIX,dmhy.org,全球加速 
   - DOMAIN-SUFFIX,mirror.ghproxy.com,DIRECT
   - DOMAIN-SUFFIX,supaxiuxiu.eu.org,DIRECT
-  - DOMAIN-SUFFIX,sypaxiuxiu.xyz,DIRECT
   - DOMAIN-SUFFIX,supaxiuxiu.synology.me,DIRECT
   - DOMAIN-SUFFIX,hk.app.lgwebostv.com,香港节点
   - DOMAIN-SUFFIX,nextlgsdp.com,香港节点
