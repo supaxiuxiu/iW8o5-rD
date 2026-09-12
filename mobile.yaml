@@ -1,0 +1,106 @@
+mixed-port: 7890
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+hosts:
+  'mtalk.google.com' : 108.177.125.188
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  default-nameserver:
+    - 1.0.0.1
+    - 119.29.29.29
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '*.lan'
+    - localhost.ptlogin2.qq.com
+    - '+.stun.*.*'
+    - '+.stun.*.*.*'
+    - '+.stun.*.*.*.*'
+    - '+.stun.*.*.*.*.*'
+    - 'lens.l.google.com'
+    - '*.n.n.srv.nintendo.net'
+    - '+.stun.playstation.net'
+    - 'xbox.*.*.microsoft.com'
+    - '*.*.xboxlive.com'
+    - '*.msftncsi.com'
+    - '*.msftconnecttest.com'
+    - '*.mcdn.bilivideo.cn'
+    - 'WORKGROUP'
+  nameserver:
+    - 119.29.29.29
+    - 180.184.1.1
+  nameserver-policy:
+    # > Google Dl
+    'dl.google.com': 119.29.29.29
+    'dl.l.google.com': 119.29.29.29
+    'update.googleapis.com': 119.29.29.29
+    # > PlayStation
+    '*.dl.playstation.net': 119.29.29.29
+
+rules:
+  - IP-CIDR,192.168.123.0/24,home
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
+  - IP-CIDR,127.0.0.0/8,DIRECT
+  - IP-CIDR,100.64.0.0/10,DIRECT
+  - IP-CIDR,224.0.0.0/4,DIRECT
+  - IP-CIDR,fe80::/10,DIRECT
+  - DOMAIN-SUFFIX,tracker.keepfrds.com,DIRECT
+  - DOMAIN-SUFFIX,tracker.m-team.cc,DIRECT
+  - DOMAIN-SUFFIX,daydream.dmhy.best,DIRECT
+  - DOMAIN-SUFFIX,hhanclub.top,DIRECT
+  - DOMAIN-SUFFIX,jpopsuki.eu,DIRECT
+  - DOMAIN-SUFFIX,pt.2xfree.org,DIRECT
+  - DOMAIN-SUFFIX,audiences.me,DIRECT
+  - DOMAIN-SUFFIX,tracker.cinefiles.info,DIRECT
+  - DOMAIN-SUFFIX,t.hdhome.org,DIRECT
+  - DOMAIN-SUFFIX,tracker.exoticaz.to,DIRECT
+  - DOMAIN-SUFFIX,tracker.hhan.club,DIRECT
+  - DOMAIN-SUFFIX,tracker.pterclub.com,DIRECT
+  - DOMAIN-SUFFIX,www.pttime.org,DIRECT
+  - DOMAIN-SUFFIX,tracker.azusa.wiki,DIRECT
+  - DOMAIN-SUFFIX,hdatmos.club,DIRECT
+  - DOMAIN-SUFFIX,chdbits.xyz,DIRECT
+  - DOMAIN-SUFFIX,pt.soulvoice.club,DIRECT
+  - DOMAIN-SUFFIX,tracker.hdsky.me,DIRECT
+  - DOMAIN-SUFFIX,tracker.totheglory.im,DIRECT
+  - DOMAIN-SUFFIX,monikadesign.uk,DIRECT
+  - DOMAIN-SUFFIX,ourbits.club,DIRECT
+  - DOMAIN-SUFFIX,tracker.carpt.net,DIRECT
+  - DOMAIN-SUFFIX,tracker.hdchina.org,DIRECT
+  - DOMAIN-SUFFIX,club.hares.top,DIRECT
+  - DOMAIN-SUFFIX,tracker.avistaz.to,DIRECT
+  - DOMAIN-SUFFIX,jptv.club,DIRECT
+  - DOMAIN-SUFFIX,ptchdbits.co,DIRECT
+  - DOMAIN-SUFFIX,sunnytk.top,DIRECT
+  - DOMAIN-SUFFIX,pt.skyey.win,DIRECT
+  - DOMAIN-SUFFIX,ultrahd.net,DIRECT
+  - DOMAIN-SUFFIX,pt.cdfile.org,DIRECT
+  - DOMAIN-SUFFIX,probe.skyey2.com,DIRECT
+  - DOMAIN-SUFFIX,anime-no-index.com,DIRECT
+  - DOMAIN-SUFFIX,1ptba.com,DIRECT
+  - DOMAIN-SUFFIX,image.tmdb.org,全球加速
+  - DOMAIN-KEYWORD,docker,全球加速
+  - DOMAIN-SUFFIX,fanart.tv,全球加速 
+  - DOMAIN-SUFFIX,mikanani.me,全球加速 
+  - DOMAIN-KEYWORD,patreon,香港节点
+  - DOMAIN-SUFFIX,dmhy.org,全球加速 
+  - DOMAIN-SUFFIX,mirror.ghproxy.com,DIRECT
+  - DOMAIN-SUFFIX,supaxiuxiu.eu.org,DIRECT
+  - DOMAIN-SUFFIX,sypaxiuxiu.xyz,DIRECT
+  - DOMAIN-SUFFIX,supaxiuxiu.synology.me,DIRECT
+  - DOMAIN-SUFFIX,hk.app.lgwebostv.com,香港节点
+  - DOMAIN-SUFFIX,nextlgsdp.com,香港节点
+  - DOMAIN-SUFFIX,wd-blue.com,DIRECT
+  - DOMAIN-SUFFIX,coomer.su,香港节点  
+  - DOMAIN-KEYWORD,kemono,香港节点
+  - DOMAIN-SUFFIX,p01.lp1.d4c.srv.nintendo.net,香港节点 
+  - DOMAIN-SUFFIX,eshop.nintendo.net,香港节点 
+  - DOMAIN-SUFFIX,lp1.nso.nintendo.net,香港节点 
+  - DOMAIN-SUFFIX,raw.githubusercontent.com,香港节点 
+  - DOMAIN-SUFFIX,github.com,香港节点 
+  - DOMAIN-SUFFIX,resources.ani.rip,香港节点 
+  - DOMAIN-SUFFIX,aniopen.an-i.workers.dev,香港节点 
+  - DOMAIN-SUFFIX,m.np.playstation.com,香港节点 
+  - DOMAIN-SUFFIX,dms.api.playstation.com,香港节点 
