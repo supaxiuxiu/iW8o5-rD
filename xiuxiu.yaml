@@ -103,3 +103,11 @@ rules:
   - DOMAIN-SUFFIX,aniopen.an-i.workers.dev,香港节点 
   - DOMAIN-SUFFIX,m.np.playstation.com,香港节点 
   - DOMAIN-SUFFIX,dms.api.playstation.com,香港节点 
+  - DOMAIN-SUFFIX,exhentai.org, 全球加速
+  - DOMAIN-SUFFIX,e-hentai.org, 全球加速
+  - DOMAIN-SUFFIX,shared.akamai.steamstatic.com, 香港节点
+  - DOMAIN-SUFFIX,store.steampowered.com, 香港节点
+  - DOMAIN-SUFFIX,store.akamai.steamstatic.com, 香港节点
+  - DOMAIN-SUFFIX,myfans.jp, 全球加速
+  - DOMAIN-SUFFIX,patreonusercontent.com, 香港节点
+
