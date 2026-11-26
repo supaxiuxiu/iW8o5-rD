@@ -87,33 +87,33 @@ rules:
   - DOMAIN-KEYWORD,docker,全球加速
   - DOMAIN-SUFFIX,fanart.tv,全球加速 
   - DOMAIN-SUFFIX,mikanani.me,全球加速 
-  - DOMAIN-KEYWORD,patreon,香港节点
+  - DOMAIN-KEYWORD,patreon,全球加速 
   - DOMAIN-SUFFIX,dmhy.org,全球加速 
   - DOMAIN-SUFFIX,mirror.ghproxy.com,DIRECT
   - DOMAIN-SUFFIX,supaxiuxiu.eu.org,DIRECT
   - DOMAIN-SUFFIX,sypaxiuxiu.xyz,DIRECT
   - DOMAIN-SUFFIX,supaxiuxiu.synology.me,DIRECT
-  - DOMAIN-SUFFIX,hk.app.lgwebostv.com,香港节点
-  - DOMAIN-SUFFIX,nextlgsdp.com,香港节点
+  - DOMAIN-SUFFIX,hk.app.lgwebostv.com,全球加速 
+  - DOMAIN-SUFFIX,nextlgsdp.com,全球加速 
   - DOMAIN-SUFFIX,wd-blue.com,DIRECT
-  - DOMAIN-SUFFIX,coomer.su,香港节点  
-  - DOMAIN-KEYWORD,kemono,香港节点
-  - DOMAIN-SUFFIX,p01.lp1.d4c.srv.nintendo.net,香港节点 
-  - DOMAIN-SUFFIX,eshop.nintendo.net,香港节点 
-  - DOMAIN-SUFFIX,lp1.nso.nintendo.net,香港节点 
-  - DOMAIN-SUFFIX,raw.githubusercontent.com,香港节点 
-  - DOMAIN-SUFFIX,github.com,香港节点 
-  - DOMAIN-SUFFIX,resources.ani.rip,香港节点 
-  - DOMAIN-SUFFIX,aniopen.an-i.workers.dev,香港节点 
-  - DOMAIN-SUFFIX,m.np.playstation.com,香港节点 
-  - DOMAIN-SUFFIX,dms.api.playstation.com,香港节点 
+  - DOMAIN-SUFFIX,coomer.su,全球加速   
+  - DOMAIN-KEYWORD,kemono,全球加速 
+  - DOMAIN-SUFFIX,p01.lp1.d4c.srv.nintendo.net,低倍率节点 
+  - DOMAIN-SUFFIX,eshop.nintendo.net,低倍率节点 
+  - DOMAIN-SUFFIX,lp1.nso.nintendo.net,低倍率节点
+  - DOMAIN-SUFFIX,raw.githubusercontent.com,全球加速 
+  - DOMAIN-SUFFIX,github.com,全球加速  
+  - DOMAIN-SUFFIX,resources.ani.rip,全球加速 
+  - DOMAIN-SUFFIX,aniopen.an-i.workers.dev,全球加速 
+  - DOMAIN-SUFFIX,m.np.playstation.com,低倍率节点 
+  - DOMAIN-SUFFIX,dms.api.playstation.com,低倍率节点
   - DOMAIN-SUFFIX,exhentai.org, 全球加速
   - DOMAIN-SUFFIX,e-hentai.org, 全球加速
-  - DOMAIN-SUFFIX,shared.akamai.steamstatic.com, 香港节点
-  - DOMAIN-SUFFIX,store.steampowered.com, 香港节点
-  - DOMAIN-SUFFIX,store.akamai.steamstatic.com, 香港节点
+  - DOMAIN-SUFFIX,shared.akamai.steamstatic.com, 全球加速 
+  - DOMAIN-SUFFIX,store.steampowered.com, 全球加速 
+  - DOMAIN-SUFFIX,store.akamai.steamstatic.com, 全球加速 
   - DOMAIN-SUFFIX,myfans.jp, 全球加速
-  - DOMAIN-SUFFIX,patreonusercontent.com, 香港节点
+  - DOMAIN-SUFFIX,patreonusercontent.com, 全球加速
   - DOMAIN-SUFFIX,ctc.run, 全球加速
 
 
