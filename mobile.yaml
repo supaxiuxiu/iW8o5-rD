@@ -114,6 +114,6 @@ rules:
   - DOMAIN-SUFFIX,store.akamai.steamstatic.com, 香港节点
   - DOMAIN-SUFFIX,myfans.jp, 全球加速
   - DOMAIN-SUFFIX,patreonusercontent.com, 香港节点
-
+  - DOMAIN-SUFFIX,gfts.tv.wiselg.com, 全球加速
 
 
